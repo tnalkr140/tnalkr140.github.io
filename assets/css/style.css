@@ -475,7 +475,6 @@ section {
     font-size: 38px;
   }
 }
-
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
@@ -726,11 +725,11 @@ section {
 .portfolio .portfolio-container {
   display: flex;
   position: relative;
-  width: 1024px;
+  width: 700px;
   align-items: center;
   text-align: center;
   padding-top: 50px;
-  padding-left: 300px;
+  margin: auto;
 }
 
 .portfolio #portfolio-flters {
@@ -828,9 +827,9 @@ section {
   right: 10px;
 }
 
-.portfolio .portfolio-item:hover .portfolio-img img {
+/* .portfolio .portfolio-item:hover .portfolio-img img {
   transform: scale(1.2);
-}
+} */
 
 .portfolio .portfolio-item:hover .portfolio-info {
   opacity: 1;
